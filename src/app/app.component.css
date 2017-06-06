@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  background-color: red;
+}
+
+.wrapper {
+  max-width: 92%;
+  margin: 10px auto 40px;
+  padding: 20px 20px 0;
+  background-color: #f3f3f3;
+  font-family: Roboto;
+  position: relative;
+  overflow: hidden;
+}
+
+.item {
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+img {
+  display: inline-block;
+  float: left;
+  max-height: 90%;
+  max-width: 90%;
+  padding: 1.2%;
+}
+
+a {
+  display: block;
+  transition: 0.2s;
+}
+
+a:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+h2 {
+  transition: 0.2s;
+}
+
+h2:hover {
+  color: #666;
+  cursor: pointer;
+}
+
+.list .item {
+  width: 100%;
+  margin: 0 auto 20px;
+}
+
+.track img {
+  max-width: 30%;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video img {
+  width: 100%;
+}
+
+.ads {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ads img {
+  width: 100%;
+}
+
+.list .details {
+  float: left;
+  max-width: 66%;
+  margin-top: 4%;
+  margin-left: 1%;
+}
+
+.details p {
+  font-size: 1em;
+}
+
+@media screen and (min-width:992px) {
+    .details p {
+        font-size: 1.5em;
+    }
+}
